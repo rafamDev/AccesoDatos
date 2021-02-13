@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import ejercicio.Conexion;
 import ejercicio.FicheroCSV;
