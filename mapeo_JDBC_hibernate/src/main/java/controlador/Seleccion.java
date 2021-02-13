@@ -16,7 +16,7 @@ public class Seleccion {
 		    Scanner entrada = new Scanner(System.in);
 			switch(entrada.nextInt()) {
 			case 0: System.out.println("[PROGRAMA FINALIZADO]"); System.exit(0);
-			case 1: conexion.crearTablaJDBC("jefe"); conexion.crearTablaJDBC("empleado"); break;
+			case 1: conexion.crearTablasJDBC();break;
 			case 2: conexion.crearTablasHibernate(); break;
 			default: System.out.println("[Introduzca 1, 2 o 0]"); break;
 		   }
@@ -24,8 +24,7 @@ public class Seleccion {
 
 	public static void setPostgresql(){
 		Conexion conexion = new Conexion("postgre");
-		conexion.crearTablaJDBC("jefe");
-		conexion.crearTablaJDBC("empleado");
+		conexion.crearTablasJDBC();
 	}
 	
 }
