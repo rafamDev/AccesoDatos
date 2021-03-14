@@ -3,13 +3,13 @@ package ejercicio;
 public class Departamento {
    
    private int codigoD;
-   private String nombreDA;
+   private String nombreD;
    private String localidad;
 
-   public Departamento(int codigoD, String nombreDA, String localidad) {
+   public Departamento(int codigoD, String nombreD, String localidad) {
 	 super();
 	 this.codigoD = codigoD;
-	 this.nombreDA = nombreDA;
+	 this.nombreD = nombreD;
 	 this.localidad = localidad;
    }
 
@@ -17,13 +17,14 @@ public class Departamento {
 	  return codigoD;
    }
 
-   public String getNombreDA() {
-	 return nombreDA;
+   public String getNombreD() {
+	 return nombreD;
    }
 
    public String getLocalidad() {
 	 return localidad;
    }
+
 
    
 }

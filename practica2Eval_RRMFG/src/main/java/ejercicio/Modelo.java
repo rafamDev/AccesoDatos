@@ -17,6 +17,9 @@ public class Modelo {
 
   private FicheroCSV ficheroCSV;
   private ODB bdd;
+  private IQuery query;
+  private Objects<Departamento> departamentos;
+  private Objects<Empleado> empleados;
   
 	public Modelo(FicheroCSV ficheroCSV){
 		this.ficheroCSV = ficheroCSV;
@@ -44,27 +47,26 @@ public class Modelo {
   }
  
   private void mostrarDepartamentos(){
-	IQuery query = new CriteriaQuery(Departamento.class);
-	Objects<Departamento> departamentos = this.bdd.getObjects(query);
-	  for(Departamento departamento : departamentos){
+	this.query = new CriteriaQuery(Departamento.class);
+	this.departamentos = this.bdd.getObjects(this.query);
+	  for(Departamento departamento : this.departamentos){
 		 System.out.print("Codigo departamento:" + departamento.getCodigoD() + " ");
-		 System.out.print("Nombre departamento:" + departamento.getNombreDA() + " ");
+		 System.out.print("Nombre departamento:" + departamento.getNombreD() + " ");
 		 System.out.println("Localidaad departamento: " + departamento.getLocalidad() + " ");
 	  }
   }
   
   private void mostrarEmpleados(){
-	IQuery query = new CriteriaQuery(Empleado.class);
-    Objects<Empleado> empleados = this.bdd.getObjects(query);
-	Objects<Departamento> departamento_empleado = null;
+	this.query = new CriteriaQuery(Empleado.class);
+    this.empleados = this.bdd.getObjects(query);
 	System.out.println("");
 	  for(Empleado empleado : empleados){
 		query = new CriteriaQuery(Departamento.class,Where.equal("codigoD", empleado.getDepartamento()));
-		    departamento_empleado = this.bdd.getObjects(query);
+		    this.departamentos = this.bdd.getObjects(query);
 			  System.out.print("Codigo empleado: " + empleado.getCodigoE() + " ");
 			  System.out.print("Nombre empleado: " + empleado.getNombreE() + " ");
 			  System.out.print("Apellido empleado: " + empleado.getApellidos() + " ");
-			  System.out.println("Depatamento empleado: " + departamento_empleado.getFirst().getNombreDA() + " ");
+			  System.out.println("Depatamento empleado: " + this.departamentos.getFirst().getNombreD() + " ");
 		}
   }
   
@@ -77,29 +79,29 @@ public class Modelo {
   }
 
   private void empleadosDep10(){
-	IQuery query = new CriteriaQuery(Empleado.class,Where.equal("departamento",10));
-	Objects<Empleado> empleados = this.bdd.getObjects(query);
-	  for (Empleado empleado : empleados) {
+	this.query = new CriteriaQuery(Empleado.class,Where.equal("departamento",10));
+	this.empleados = this.bdd.getObjects(this.query);
+	  for (Empleado empleado : this.empleados) {
 		   System.out.println("Nombres de los empleados que pertenecen al departamento con codigo 10: " + empleado.getNombreE() + " ");
 	  }
   }
   
   private void nEmpleadosDepVentas(){
-	 CriteriaQuery query = new CriteriaQuery(Empleado.class, Where.equal("departamento",10));
-	 Values valores = this.bdd.getValues(new ValuesCriteriaQuery(query).count("nombreE"));
+	 CriteriaQuery cQuery = new CriteriaQuery(Empleado.class, Where.equal("departamento",10));
+	 Values valores = this.bdd.getValues(new ValuesCriteriaQuery(cQuery).count("nombreE"));
 	 ObjectValues objetosValores = valores.nextValues();
 	 BigInteger numero = (BigInteger)objetosValores.getByAlias("nombreE");
 	 System.out.println("Número empleados en Ventas: " + numero);
   }
 
   private void nEmpleadosXdep(){
-    Objects<Departamento> departamentos = this.bdd.getObjects(new CriteriaQuery(Departamento.class));
+	this.departamentos = this.bdd.getObjects(new CriteriaQuery(Departamento.class));
 	Values valores = this.bdd.getValues(new ValuesCriteriaQuery(Empleado.class).count("nombreE").groupBy("departamento"));	
-	ObjectValues valoresObj = null;	
-	  for(Departamento departamento : departamentos) {
-			valoresObj = valores.next();
-			System.out.println("Departamento " +  departamento.getNombreDA() + ": " + valoresObj.getByIndex(0) + " ");
-	  }  
+	 ObjectValues valoresObj = null;	
+		  for(Departamento departamento : this.departamentos) {
+				valoresObj = valores.next();
+				System.out.println("Departamento " +  departamento.getNombreD() + ": " + valoresObj.getByIndex(0) + " ");
+		  }  
   }
 
 

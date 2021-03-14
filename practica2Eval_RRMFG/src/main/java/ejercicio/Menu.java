@@ -9,7 +9,11 @@ public class Menu {
      Modelo modelo = new Modelo(new FicheroCSV());
 	   while(true) {	
 		 System.out.println("\nSELECCIONE OPCION:");
-		 System.out.println("\n1-Opcion 1\n2-Opcion 2 \n3-opcion 3 \n4-Salir\n");
+		 System.out.println("\n1-Insertar Registros. \n2-Visualizar todos los departamentos y empleados. "
+		 		+ "\n3-Visualizar:\n Nombres de los empleados que trabajan en el departamento 10.\n"
+		 		+ " Numero de empleados del departamento de Ventas.\n"
+		 		+ " Por cada departamento, el número de empleados.\n"
+		 		+ " \n4-Salir\n");
 		  switch(entrada.nextInt()) {
 			  case 1: modelo.opcion1();;break;
 			  case 2: modelo.opcion2();;break;
