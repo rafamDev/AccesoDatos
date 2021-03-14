@@ -73,7 +73,9 @@ public class Modelo {
   public void opcion3(){
 	this.bdd = ODBFactory.open("D:\\PRUEBAS\\bdd.neodatis");  
 	this.empleadosDep10();
+	System.out.println("");
 	this.nEmpleadosDepVentas();
+	System.out.println("");
 	this.nEmpleadosXdep();
     this.bdd.close();
   }
