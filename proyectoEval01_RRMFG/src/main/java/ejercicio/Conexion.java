@@ -36,7 +36,6 @@ public class Conexion {
 	      session.getTransaction().commit();
 		  session.close();  
 	      sf.close();
-		
 	}
 	
     public void consultar() {
