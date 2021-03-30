@@ -22,7 +22,7 @@ public class Main {
 		  Session session = sf.openSession();
 
 		  //Creamos los objetos que queremos mapear
-		   Alumno al1 = new Alumno("1AA","Juan", "686231785");
+		   Alumno al1 = new Alumno("1AA","Juanito", "686231785");
 		   Alumno al2 = new Alumno("2BB","Pepe", "686437965");
 		   Alumno al3 = new Alumno("3CC","Rafa", "624231585");
 		   Ciclo asir = new Asir("AA1",al1,"Linux");

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe6cbda9-fe59-45a5-bee5-5f347cdf0cc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DAMHibernate_1aN/target/classes/META-INF/maven/com.dam/DAMHibernate_1aN/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DAMHibernate_1aN/target/classes/META-INF/maven/com.dam/DAMHibernate_1aN/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAMHibernate_Consultas/target/classes/META-INF/maven/com.dam/DAMHibernate_Consultas/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DAMHibernate_Consultas/target/classes/META-INF/maven/com.dam/DAMHibernate_Consultas/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DAMHibernate_NM/target/classes/META-INF/maven/com.dam/DAMHibernate_NM/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DAMHibernate_NM/target/classes/META-INF/maven/com.dam/DAMHibernate_NM/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eval2RRMFG/target/classes/META-INF/maven/com.dam/Eval2RRMFG/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Eval2RRMFG/target/classes/META-INF/maven/com.dam/Eval2RRMFG/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../control2Eval_RRMFG/target/classes/META-INF/maven/com.dam/control2Eval_RRMFG/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../control2Eval_RRMFG/target/classes/META-INF/maven/com.dam/control2Eval_RRMFG/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica1Herencia_SingleTable/target/classes/META-INF/maven/com.dam/practica1Herencia/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica1Herencia_SingleTable/target/classes/META-INF/maven/com.dam/practica1Herencia/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2Eval_RRMFG/target/classes/META-INF/maven/com.dam/practica2Eval_RRMFG/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica2Eval_RRMFG/target/classes/META-INF/maven/com.dam/practica2Eval_RRMFG/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2Herencia_JoinedTable/target/classes/META-INF/maven/com.dam/practica2Herencia_JoinedTable/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica2Herencia_JoinedTable/target/classes/META-INF/maven/com.dam/practica2Herencia_JoinedTable/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2MongoDB/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../practica2MongoDB/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica2MongoDB/target/classes/META-INF/maven/com.dam/practica2MongoDB/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica2MongoDB/target/classes/META-INF/maven/com.dam/practica2MongoDB/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica3Herencia_TablePerClass/target/classes/META-INF/maven/com.dam/practica3_Herencia_TablePerClass/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica3Herencia_TablePerClass/target/classes/META-INF/maven/com.dam/practica3_Herencia_TablePerClass/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica4Herencia/target/classes/META-INF/maven/com.dam/practica4Herencia/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practica4Herencia/target/classes/META-INF/maven/com.dam/practica4Herencia/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practicaNM_SingleTable/target/classes/META-INF/maven/com.dam/practicaNM_SingleTable/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../practicaNM_SingleTable/target/classes/META-INF/maven/com.dam/practicaNM_SingleTable/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qUCs8hnF3pFb1HV5QP3i7zwLhu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe6cbda9-fe59-45a5-bee5-5f347cdf0cc7" name="Default Changelist" comment="" />
+      <created>1617124987031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617124987031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

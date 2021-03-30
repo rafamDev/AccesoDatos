@@ -1,6 +1,5 @@
 package ejercicio2;
 
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -8,7 +7,6 @@ public class Main {
 	  ficheroXML.crearFicheroXML();
 	  ficheroXML.crearFicheroXML_Departamentos();
 	  ficheroXML.crearFicheroXML_empleados();
-	  
-   }
+	}
 
 }
